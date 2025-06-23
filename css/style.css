@@ -34,7 +34,8 @@ main {
     padding: 10px;
 }
 
-h1, h3 {
+h1,
+h3 {
     color: antiquewhite;
 }
 
@@ -53,13 +54,14 @@ aside {
     height: 540px;
     font-family: "Yrsa", serif;
     font-weight: 300;
+    font-size: 1.5rem;
     padding: 20px;
     align-content: center;
 }
 
 aside h1 {
     font-size: 3rem;
-    font-family: "Yrsa", serif;
+    font-family: "Parisienne", cursive;
 }
 
 nav {
@@ -169,7 +171,8 @@ article p {
     z-index: 1;
 }
 
-.prev, .next {
+.prev,
+.next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
@@ -306,3 +309,121 @@ footer p {
     border-radius: 10px;
 }
 
+.black_ornament {
+    width: 40px;
+    height: auto;
+}
+
+.lattes_logo {
+    width: 30px;
+    height: auto;
+}
+
+.instagram_logo {
+    width: 40px;
+    height: auto;
+}
+
+@media (max-width: 768px) {
+    body {
+        margin: 5px;
+        padding: 5px;
+    }
+
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header img {
+        width: 300px;
+        height: auto;
+    }
+
+    aside {
+        width: 90%;
+        height: auto;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav {
+        flex-direction: row;
+        width: 95%;
+        height: auto;
+        margin-top: 30px;
+        margin-bottom: 0px;
+        gap: 10px;
+    }
+
+    nav a {
+        font-size: 1.2rem;
+    }
+
+    article {
+        flex-direction: column;
+    }
+
+    article img {
+        width: 90%;
+        height: auto;
+    }
+
+    article .text_1,
+    .text_2 {
+        width: 90%;
+        height: auto;
+        margin-top: 0px;
+    }
+
+    article .text_3 {
+        width: 90%;
+        height: auto;
+        margin-top: 30px;
+    }
+
+    #gallery {
+        flex-direction: row;
+        margin: 20px;
+        padding: 10px;
+    }
+
+    .carousel {
+        width: 85%;
+        aspect-ratio: 3 / 2;
+    }
+
+    #info {
+        flex-direction: column;
+    }
+
+    .info_title {
+        width: 90%;
+        height: 80%;
+        margin: 5px;
+    }
+
+    .info_title h1 {
+        margin: 10px;
+    }
+
+    .info_aside {
+        width: 90%;
+        height: auto;
+        margin: 20px;
+    }
+
+    .black_ornament {
+        width: 20px;
+        height: auto;
+    }
+
+    .lattes_logo {
+        width: 20px;
+    }
+
+    .instagram_logo {
+        width: 20px;
+    }
+
+}

@@ -16,3 +16,5 @@ document.querySelector('.prev').addEventListener('click', () => {
     current = (current - 1 + slides.length) % slides.length;
     showSlide(current);
 });
+
+showSlide(current);

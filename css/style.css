@@ -188,13 +188,13 @@ article p {
 }
 
 .bottom_right {
-    top: 302rem;
+    top: 303rem;
     left: 111rem;
     transform: scaleX(-1);
 }
 
 .bottom_left {
-    top: 302rem;
+    top: 303rem;
     left: 2rem;
 }
 

@@ -123,7 +123,6 @@ article p {
 .flower.right {
     transform: scaleX(-1) rotate(-15deg);
     margin-left: 25px;
-
 }
 
 .flower.left {
@@ -162,6 +161,35 @@ article p {
     font-size: 1.8rem;
     font-weight: bold;
     margin: 10px;
+}
+
+.flower_2 {
+    width: 100px;
+    height: auto;
+    position: absolute;
+}
+
+.top_right {
+    top: 1rem;
+    left: 111rem;
+    transform: scaleX(-1) rotate(90deg);
+}
+
+.top_left {
+    top: 1rem;
+    left: 2rem;
+    transform: rotate(90deg);
+}
+
+.bottom_right {
+    top: 302rem;
+    left: 111rem;
+    transform: scaleX(-1);
+}
+
+.bottom_left {
+    top: 302rem;
+    left: 2rem;
 }
 
 /* carousel */
@@ -419,6 +447,23 @@ footer p {
         margin-top: 30px;
     }
 
+    .top_right {
+        top: 1rem;
+        left: 39rem;
+        transform: scaleX(-1) rotate(90deg);
+    }
+
+    .bottom_right {
+        top: 419rem;
+        left: 35rem;
+        transform: scaleX(-1);
+    }
+
+    .bottom_left {
+        top: 200rem;
+        left: 2rem;
+    }
+
     #gallery {
         flex-direction: row;
         margin: 20px;
@@ -456,11 +501,12 @@ footer p {
     }
 
     .lattes_logo {
-        width: 20px;
+        width: 25px;
     }
 
     .instagram_logo {
-        width: 20px;
+        width: 30px;
+        margin-left: 5px;
     }
 
 }

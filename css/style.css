@@ -27,6 +27,10 @@ body {
     margin: 10px 10px 0px 10px;
     padding: 10px 10px 0px 10px;
     background-color: #4A0404;
+    background-image: url('../assets/flower_background.png');
+    background-repeat: repeat-x repeat-y;
+    background-size: contain;
+    background-position: center;
 }
 
 main {
@@ -119,6 +123,7 @@ article p {
 .flower.right {
     transform: scaleX(-1) rotate(-15deg);
     margin-left: 25px;
+
 }
 
 .flower.left {
@@ -127,10 +132,18 @@ article p {
 }
 
 .text_1,
-.text_2,
-.text_3,
 .text_4 {
-    padding: 20px 30px 20px 20px;
+    font-size: 1.5rem;
+    width: 500px;
+    padding: 30px;
+}
+
+.text_2,
+.text_3 {
+    width: 500px;
+    font-size: 1.5rem;
+    padding: 30px;
+
 }
 
 #gallery {
@@ -166,6 +179,7 @@ article p {
 
 .slides {
     position: relative;
+    margin: 0px;
     width: 100%;
     height: 100%;
 }
@@ -193,11 +207,10 @@ article p {
     transform: translateY(-50%);
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
-    color: white;
-    padding: 12px 20px;
+    color: antiquewhite;
+    padding: 20px;
     cursor: pointer;
     font-size: 20px;
-    border-radius: 50%;
     z-index: 2;
 }
 
@@ -262,7 +275,8 @@ article p {
     text-decoration: none;
 }
 
-.info_aside h2, .info_aside h3 {
+.info_aside h2,
+.info_aside h3 {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -280,6 +294,7 @@ article p {
     flex-direction: row;
     align-items: center;
     margin-left: 5px;
+    margin-bottom: 0px;
 
 }
 
@@ -288,6 +303,7 @@ article p {
 }
 
 .instagram {
+    margin: 0px;
     display: flex;
     flex-direction: row;
     align-items: center;

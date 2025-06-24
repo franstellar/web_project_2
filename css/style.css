@@ -24,8 +24,8 @@ html {
 }
 
 body {
-    margin: 10px;
-    padding: 10px;
+    margin: 10px 10px 0px 10px;
+    padding: 10px 10px 0px 10px;
     background-color: #4A0404;
 }
 
@@ -109,6 +109,21 @@ article p {
     font-size: 1.2rem;
     align-content: center;
     text-align: center;
+}
+
+.flower {
+    width: 150px;
+    height: auto;
+}
+
+.flower.right {
+    transform: scaleX(-1) rotate(-15deg);
+    margin-left: 25px;
+}
+
+.flower.left {
+    transform: rotate(-15deg);
+    margin-right: 25px;
 }
 
 .text_1,
@@ -245,6 +260,12 @@ article p {
 .info_aside a {
     color: antiquewhite;
     text-decoration: none;
+}
+
+.info_aside h2, .info_aside h3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .info_aside a:hover {
